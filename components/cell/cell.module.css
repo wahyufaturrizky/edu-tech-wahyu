@@ -1,0 +1,20 @@
+.cell {
+  align-items: center;
+  display: flex;
+  flex: 0 0 10em;
+  flex-direction: column;
+  height: 10em;
+  justify-content: center;
+  margin: 2px;
+  transition: all 0.2s;
+}
+
+.cell:hover {
+  box-shadow: 1em 1em 2em #d0d0d0, -1em -1em 2em #fff;
+  transform: scale(1.2);
+}
+
+.sprite {
+  height: 96px;
+  width: 96px;
+}
