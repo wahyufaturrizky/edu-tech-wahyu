@@ -1,6 +1,6 @@
 
 # [Author](linkedin.com/in/wahyu-fatur-rizky/ | Wahyu Fatur Rizki)
-# [Pokédex](https://pokedex.rbrd.in/)
+# [Pokédex](https://tru-trip-wahyu-fatur-rizki.netlify.app/)
 
 🎒 A server-rendered universal JavaScript application for Pokémon trainers.
 
