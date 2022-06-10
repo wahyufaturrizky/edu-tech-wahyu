@@ -12,11 +12,11 @@
   ],
   "homepage": "https://tru-trip-wahyu-fatur-rizki.netlify.app/",
   "bugs": {
-    "url": "https://github.com/rbardini/pokedex/issues"
+    "url": "https://github.com/wahyufaturrizky/tru-trip-wahyu-fatur-rizki/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rbardini/pokedex.git"
+    "url": "https://github.com/wahyufaturrizky/tru-trip-wahyu-fatur-rizki"
   },
   "license": "MIT",
   "author": {
@@ -39,6 +39,7 @@
     "classnames": "2.3.1",
     "framer-motion": "6.2.8",
     "next": "12.1.0",
+    "nprogress": "^0.2.0",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },

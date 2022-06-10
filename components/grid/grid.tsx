@@ -1,18 +1,23 @@
-import { motion } from 'framer-motion'
-import { PokemonListItem } from '../../types/pokemon'
-import Cell from '../cell'
-import styles from './grid.module.css'
+import { motion } from "framer-motion";
+import { PokemonListItem } from "../../types/pokemon";
+import Cell from "../cell";
+import styles from "./grid.module.css";
 
 type Props = {
-  pokemons: PokemonListItem[]
-}
+  pokemons: PokemonListItem[];
+  router: any;
+};
 
-const Grid = ({ pokemons }: Props) => (
-  <motion.div className={styles.grid} layout>
-    {pokemons.length > 0
-      ? pokemons.map(pokemon => <Cell key={pokemon.name} pokemon={pokemon} />)
-      : 'No Pokémon found'}
-  </motion.div>
-)
+const Grid = ({ pokemons, router }: Props) => {
+  return (
+    <motion.div className={styles.grid} layout>
+      {pokemons?.length > 0
+        ? pokemons.map((pokemon) => (
+            <Cell key={pokemon.name} router={router} pokemon={pokemon} />
+          ))
+        : "No Pokémon found"}
+    </motion.div>
+  );
+};
 
-export default Grid
+export default Grid;
