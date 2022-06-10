@@ -9,7 +9,7 @@ type Props = {
   className?: string;
   handleCatchMe: (pokemon: any) => void;
   pokemon: PokemonItem;
-  dataMyCatchPokemon: PokemonItem;
+  dataMyCatchPokemon: any;
   router: any;
 };
 
@@ -28,7 +28,7 @@ const Figure = ({
       layoutId={`pic-${pokemon.id}`}
     />
     {router.query.fromPage === "/" ? (
-      dataMyCatchPokemon?.map((data) => data.id).includes(pokemon.id) ? (
+      dataMyCatchPokemon?.map((data: any) => data.id).includes(pokemon.id) ? (
         <p>
           <b>Already catched!</b>
         </p>

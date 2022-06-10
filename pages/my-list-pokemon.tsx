@@ -31,7 +31,7 @@ const Page = () => {
 
   const fetchMyCatchPokemon = useCallback(() => {
     const res = localStorage.getItem("myListPokemon");
-    const resParse = JSON.parse(res);
+    const resParse = JSON.parse(res as string);
     console.log("@resParse", resParse);
 
     setStateMyListPokemon(

@@ -45,7 +45,7 @@ const Page = ({ pokemons }: Props) => {
 
   const fetchMyCatchPokemon = useCallback(() => {
     const res = localStorage.getItem("myListPokemon");
-    const resParse = JSON.parse(res);
+    const resParse = JSON.parse(res as string);
   }, []);
 
   useEffect(() => {

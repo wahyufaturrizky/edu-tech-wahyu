@@ -47,7 +47,7 @@ const Page = ({ pokemon }: Props) => {
   const handleCatchMe = (catchPokemon: any) => {
     if (router.query.fromPage === "/") {
       const res = localStorage.getItem("myListPokemon");
-      const resParse = JSON.parse(res);
+      const resParse = JSON.parse(res as string);
 
       let tempDataArray = [];
       tempDataArray = Object.keys(resParse || {}).map((data) => resParse[data]);
@@ -59,11 +59,11 @@ const Page = ({ pokemon }: Props) => {
       router.back();
     } else {
       const res = localStorage.getItem("myListPokemon");
-      const resParse = JSON.parse(res);
+      const resParse = JSON.parse(res as string);
 
       let tempDataArray = [];
       tempDataArray = dataMyCatchPokemon.filter(
-        (filtering) => filtering.id !== catchPokemon.id
+        (filtering: any) => filtering.id !== catchPokemon.id
       );
 
       localStorage.setItem("myListPokemon", JSON.stringify(tempDataArray));
@@ -73,7 +73,7 @@ const Page = ({ pokemon }: Props) => {
 
   const fetchMyCatchPokemon = useCallback(() => {
     const res = localStorage.getItem("myListPokemon");
-    const resParse = JSON.parse(res);
+    const resParse = JSON.parse(res as string);
     setDataMyCatchPokemon(resParse);
   }, []);
 
