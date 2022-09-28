@@ -10,13 +10,13 @@
     "index",
     "pokeapi"
   ],
-  "homepage": "https://tru-trip-wahyu-fatur-rizki.netlify.app/",
+  "homepage": "https://edu-tech-wahyu-fatur-rizki.netlify.app/",
   "bugs": {
-    "url": "https://github.com/wahyufaturrizky/tru-trip-wahyu-fatur-rizki/issues"
+    "url": "https://github.com/wahyufaturrizky/edu-tech-wahyu-fatur-rizki/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wahyufaturrizky/tru-trip-wahyu-fatur-rizki"
+    "url": "https://github.com/wahyufaturrizky/edu-tech-wahyu-fatur-rizki"
   },
   "license": "MIT",
   "author": {

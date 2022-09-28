@@ -2,7 +2,7 @@
 
 | Wahyu Fatur Rizki |
 
-# [Pokédex](https://tru-trip-wahyu-fatur-rizki.netlify.app/)
+# [Pokédex](https://edu-tech-wahyu-fatur-rizki.netlify.app/)
 
 🎒 A server-rendered universal JavaScript application for Pokémon trainers.
 
@@ -24,8 +24,8 @@ Powered by [Next.js](https://nextjs.org/) and [PokéAPI](https://pokeapi.co/).
 ## Quick Start
 
 ```console
-git clone https://github.com/wahyufaturrizki/tru-trip-wahyu-fatur-rizki
-cd tru-trip-wahyu-fatur-rizki
+git clone https://github.com/wahyufaturrizki/edu-tech-wahyu-fatur-rizki
+cd edu-tech-wahyu-fatur-rizki
 npm install
 npm run dev
 ```
